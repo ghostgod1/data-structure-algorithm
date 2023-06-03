@@ -8,10 +8,12 @@ class Rectangle
 
     public:
     Rectangle (){length=breadth=1;}
-    Rectangle(int l, int b);
 
+    Rectangle(int l, int b);
     int area();
     int perimeter();
+
+
     int getlength()
     {
       return length;
@@ -21,21 +23,25 @@ class Rectangle
     {
         length=l;
     }
-    ~Rectangle();
+    ~Rectangle();  //destructor
 };
+
 Rectangle::Rectangle(int l, int b)
 {
     length = l;
     breadth = b;
 }
+
 int Rectangle::area()
 {
     return length*breadth;
 }
+
 int Rectangle::perimeter()
 {
     return 2*(length+breadth);
 }
+
 Rectangle::~Rectangle()
 {
 
