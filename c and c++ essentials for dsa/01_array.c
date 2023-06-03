@@ -8,12 +8,10 @@ int main()
 
     printf("%d\n",luckyNumbers[9]);
     printf("%d\n",luckyNumbers[1]);
-
-    int i;
      
-    for ( i = 0; i < 15; i++)
+    for (int i = 0; i < 15; i++)
     {
-        printf("%d\n", luckyNumbers[i]);
+        printf("%d ", luckyNumbers[i]);
     }
     
 
