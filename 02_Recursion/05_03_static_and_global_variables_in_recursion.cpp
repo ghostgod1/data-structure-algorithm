@@ -12,7 +12,7 @@ int fun(int n)
 
 int fun2(int m)                          //for static variable
 {
-    static int x=0;
+    static int x=0;//--static variable
     if (m>0)
     {
         x++;
